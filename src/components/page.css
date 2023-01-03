@@ -1,10 +1,25 @@
 .navbar {
     overflow: hidden;
     position: fixed;
-    background-color: #e3effc;
+    background-color: #344d90;
     top: 0;
     width: 100%;
   }
+  .button{
+    transition: background-color 0.5s, transform 0.5s;;
+  }
+  .button:hover {
+    color: #f5924c;
+    background-color: #fff;
+    border: 2px solid #f5924c; 
+}
+.intro{
+    height: 400px;
+    width: 100%;
+    background-image: url("../images/video-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .head-intro{
     display: flex;
     flex-direction: row-reverse;
@@ -69,7 +84,7 @@
     .navbar {
         overflow: hidden;
         position: fixed;
-        background-color: #e3effc;
+        background-color: #344d90;
         top: 0;
         width: 100%;
       }

@@ -5,9 +5,9 @@ import FunnyCow from '../images/funny-cow-mad-to-be-normal.jpg'
 
 const Tail = () => {
   return (
-    <div className='mx-0'>
+    <div>
         <div className='pt-5' id='tail'>
-           <p className='text-sm md:text-base bg-[#e3effc] px-5 py-3 mb-10 lg:text-lg lg:mx-12 lg:rounded'>
+           <p className='text-sm text-center md:text-base bg-[#e3effc] px-5 py-3 mb-10 lg:text-lg lg:mx-12 lg:rounded'>
            Shadowline are one of the only media companies with full SEIS assurance
             and has a stellar record when it comes to high quality films and investments
              producing a great return (see below).
@@ -29,31 +29,35 @@ const Tail = () => {
                        this specialised legal service.
                 </p>
                 <p className='text-xs leading-5 py-5 md:text-sm md:leading-7'>Please find a link to our talented management team
-                 <a className='text-[#448feb] underline px-1' href="https://shadowlinemedia.com/">here at Shadowline Media.</a></p>
+                 <a className='text-[#344d90] underline px-1' href="https://shadowlinemedia.com/">here at Shadowline Media.</a></p>
             </div>
             <div className='tail2 flex items-center justify-center'>
-                <img className='w-[300px] md:w-[500px] rounded-md' src={James} alt="James" />
+                <img className='w-[300px] mb-5 md:w-[500px] rounded-md' src={James} alt="James" />
             </div>
         </div>
-        <hr className='my-7 mx-4 border-2 lg:mx-12' />
+        {/* <hr className='my-7 mx-4 border-2 lg:mx-12' /> */}
 
                              {/* BOTTOM */}
-       <div className='mx-5 md:mx-7 lg:mx-12'>
+        <div className='bg-[#344d90]'>
+       <div className='mx-3 pt-5 md:mx-7 lg:mx-12'>
         <img src={FunnyCow} alt="FunnyCow" />
        </div>
               
               <div className='text-center my-1'>
-            <a className='text-xs md:text-sm text-[#448feb]' href="#Top">Back to top</a>
+            <a className='text-xs md:text-sm text-[#f5924c]' href="#Top">Back to top</a>
             </div>
 
        <div>
-        <p className='text-xs md:text-sm mb-5 mx-0 py-2 px-2 leading-4 md:leading-6 bg-[#e3effc] lg:text-base lg:mx-0 lg:px-12 lg:py-10 lg:rounded'>
+        <p className='text-xs md:text-sm mb-2 mx-2 rounded py-2 px-2 leading-4 md:leading-6 bg-[#e3effc] lg:text-base lg:mx-0 lg:px-12 lg:py-10 lg:rounded'>
          <b>Disclaimer:</b> Any person considering potential investment opportunities featured should
          make their own commercial assessment of an investment opportunity and consider seeking
           the advice of an appropriately authorised or regulated financial advisor. The email should
            not be construed as advice or a personal recommendation to any prospective investor.
         </p>
+        <p className='text-center text-xs text-[#fff] pb-2'>Copyright ©2023 All rights reserved</p>
        </div>
+       </div>
+
     </div>
   )
 }

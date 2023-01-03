@@ -11,17 +11,17 @@ const Head = () => {
         <div className='flex items-center justify-between navbar pb-3 pt-5 px-4 md:px-12 lg:px-[100px] lg:mb-[400px] shadow-md'>
             <img className='w-[150px] md:w-[250px] lg:w-[300px]' src={Logo} alt="logo" />
               <div className='flex items-center justify-between'>
-                 <button className='bg-[#448feb] text-white text-xs md:text-sm lg:text-base mx-2 md:mx-4 px-2 py-1.5  md:px-4 md:py3 rounded'>Invest Now</button>
                  <button
-                 className='bg-[#448feb] text-white text-xs md:text-sm lg:text-base mx-2 md:mx-4 px-2 py-1.5 md:px-4 md:py3 rounded'
+                 className='button bg-[#f5924c] text-white text-xs md:text-sm lg:text-base mx-2 md:mx-4 px-2 py-1.5 md:px-4 md:py3 rounded'
                  >
-                  <a href="#tail">About Us</a>
+                  <a href="#">ENQUIRE</a>
                    </button>
               </div>
         </div>
                                      {/* INTRO */}
-         <div className='pt-12 lg:mx-7 mt-[80px] lg:mt-[150px] md:mt-[130px]' id='Top'>
-            <p className='text-sm md:text-base lg:text-lg lg:mx-12 lg:rounded bg-[#e3effc] px-5 py-4'>
+         <div className='intro pt-12 mt-[75px] lg:mt-[115px] md:mt-[105px]' id='Top'>
+            <p className='text-sm text-center md:text-base lg:text-lg lg:mx-12 lg:mt-[90px] md:mt-[70px] mt-[75px] md:py-7 
+            lg:rounded lg:py-10 lg:leading-10 md:leading-8 bg-[#e3effc] px-5 py-2'>
              Get 50% SEIS income tax relief on two of the most eagerly awaited cinematic releases
              in the coming months The George Best Story and the recently Paramount Pictures backed
              true story of Angelina The Queen of Coffee.
@@ -49,10 +49,10 @@ const Head = () => {
          </div>
             
             <div className='flex items-center justify-center mt-12 lg:justify-end lg:mt-[-10px] lg:mr-[305px]'>
-            <button className='bg-[#448feb] md:text-lg text-white py-2 px-4 rounded'>Click Here To See If You Qualify</button>
+            <button className='button bg-[#f5924c] md:text-lg text-white py-2 px-4 rounded'>Click Here To See If You Qualify</button>
             </div>
 
-            <hr className='my-7 mx-4 border-2 lg:mt-12 lg:mx-12' />
+            {/* <hr className='my-7 mx-4 border-2 lg:mt-12 lg:mx-12' /> */}
     </div>
   )
 }
