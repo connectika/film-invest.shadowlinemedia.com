@@ -9,7 +9,6 @@ function App() {
        <Head />
        <Middle />
        <Tail />
-       {/* "build": "react-scripts build", */}
     </div>
   );
 }
