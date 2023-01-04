@@ -4,10 +4,11 @@ import James from '../images/james.jpg'
 import FunnyCow from '../images/funny-cow-mad-to-be-normal.jpg'
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { faTowerObservation } from '@fortawesome/free-solid-svg-icons';
 
 const boxVariant = {
-  visible: { opacity: 1, scale: 1, ease: "linear", transition: { duration: 1 } },
-  hidden: { opacity: 0, scale: 0 }
+  visible: { opacity: 1, ease: "linear", type: "tween", transition: { duration: 2.5 } },
+  hidden: { opacity: 0}
 };
 
 const Tail = () => {
