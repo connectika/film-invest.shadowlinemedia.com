@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './page.css'
 import James from '../images/james.jpg'
 import FunnyCow from '../images/funny-cow-mad-to-be-normal.jpg'
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
+const boxVariant = {
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+  hidden: { opacity: 0, scale: 0 }
+};
 
 const Tail = () => {
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
   
   return (
     <div 
@@ -18,7 +34,11 @@ const Tail = () => {
         </div>
 
         <div className='tail-section flex-column items-center justify-center lg:mr-[100px]'>
-            <div
+            <motion.div
+            ref={ref}
+            variants={boxVariant}
+            initial="hidden"
+            animate={control}
              className='tail1 px-7 md:px-0 md:pr-7'>
                 <h1 className='text-2xl font-medium'>ABOUT ME</h1>
                 <p className='text-sm mt-[-25px] mb-3'>PRODUCER <sub className='text-5xl'>·</sub> INVESTMENT CONSULTANT</p>
@@ -34,7 +54,7 @@ const Tail = () => {
                 </p>
                 <p className='text-xs leading-5 py-5 md:text-sm md:leading-7'>Please find a link to our talented management team
                  <a className='text-[#344d90] underline px-1' href="https://shadowlinemedia.com/">here at Shadowline Media.</a></p>
-            </div>
+            </motion.div>
             <div className='tail2 flex items-center justify-center'>
                 <img className='w-[300px] mb-5 md:w-[500px] rounded-md' src={James} alt="James" />
             </div>
