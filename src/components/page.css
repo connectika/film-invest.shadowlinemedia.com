@@ -1,22 +1,27 @@
+.App{
+    background-color: #fff9f5;
+}
 .navbar {
     overflow: hidden;
     position: fixed;
-    background-color: #344d90;
+    background-color: #fff1e5;
+    z-index: 70;
     top: 0;
     width: 100%;
   }
   .button{
-    transition: background-color 0.5s, transform 0.5s;;
+    border: 2px solid #262a33;
+    transition: background-color 0.5s, transform 0.5s;
   }
   .button:hover {
-    color: #f5924c;
+    color: #262a33;
     background-color: #fff;
-    border: 2px solid #f5924c; 
+    border: 2px solid #262a33; 
 }
 .intro{
-    height: 400px;
+    height: 625px;
     width: 100%;
-    background-image: url("../images/video-img.png");
+    background-image: url("../images/shadow-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -26,11 +31,21 @@
     align-items: center;
     justify-content: space-between;
 }
+/* .intro-text{
+    opacity: 70%;
+} */
 .intro-1{
     margin: 20px 50px 0px 50px;
 }
 .intro-2{
     margin: 0px 75px;
+}
+.intro{
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/shadow-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .first-section{
     display: flex;
@@ -57,7 +72,7 @@
     width: 50vw;
 }
 .third-section{
-    background-color: whitesmoke;
+    background-color: #fff9f5;
 }
 .tail-section{
     display: flex;
@@ -72,6 +87,15 @@
 .tail2{
     width: 50vw;
 }
+/* ul {
+    list-style-type: none;
+}
+ul li::before {
+    content: "\e132";
+    font-family: "Font Awesome 5 Free";
+    padding:  0px 5px;
+    font-size: 30px;
+} */
 @media only screen and (max-width: 768px) {
     .tail1{
         width: 70vw;
@@ -84,7 +108,7 @@
     .navbar {
         overflow: hidden;
         position: fixed;
-        background-color: #344d90;
+        background-color: #fff1e5;
         top: 0;
         width: 100%;
       }
@@ -93,6 +117,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+    .intro{
+        height: 370px;
+        width: 100%;
+        background-image: url("../images/shadow-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .intro-1{
         margin: 20px 50px 0px 50px;

@@ -12,34 +12,36 @@ const Head = () => {
             <img className='w-[150px] md:w-[250px] lg:w-[300px]' src={Logo} alt="logo" />
               <div className='flex items-center justify-between'>
                  <button
-                 className='button bg-[#f5924c] text-white text-xs md:text-sm lg:text-base mx-2 md:mx-4 px-2 py-1.5 md:px-4 md:py3 rounded'
+                 className='button bg-[#262a33] text-[#fff] border-2 text-xs md:text-sm lg:text-base mx-2 md:mx-4 px-2 py-1.5 md:px-4 md:py3 rounded'
                  >
-                  <a href="#">ENQUIRE</a>
+                  <a href="#">Enquire</a>
                    </button>
               </div>
         </div>
                                      {/* INTRO */}
-         <div className='intro pt-12 mt-[75px] lg:mt-[115px] md:mt-[105px]' id='Top'>
-            <p className='text-sm text-center md:text-base lg:text-lg lg:mx-12 lg:mt-[90px] md:mt-[70px] mt-[75px] md:py-7 
-            lg:rounded lg:py-10 lg:leading-10 md:leading-8 bg-[#e3effc] px-5 py-2'>
+         <div className='intro flex items-center justify-center' id='Top'>
+          <div className='opacity-70 bg-[#fff9f5] py-[10px] lg:py-[50px] md:py-[90px]'>
+            <p className='intro-text mt-[90px] text-base font-medium text-center leading-8 py-7 px-7 mb-7 z-50
+            md:text-lg md:leading-10 md:mt-[130px] lg:text-3xl lg:mt-[150px] lg:mx-[100px] lg:rounded lg:leading-[3.5rem]'>
              Get 50% SEIS income tax relief on two of the most eagerly awaited cinematic releases
-             in the coming months The George Best Story and the recently Paramount Pictures backed
-             true story of Angelina The Queen of Coffee.
+             in the coming months The <b>George Best Story</b> and the recently Paramount Pictures backed
+             true story of <b>Angelina The Queen of Coffee</b> .
             </p>
+            </div>
          </div>
 
          <div className='head-intro flex-column items-center justify-center'>
               <div className='intro-1 mx-7 mt-7 lg:mt-[75px] md:mt-[75px] text-[10px] md:text-base md:leading-10 leading-7'>
-                <p className='flex'><BiMoviePlay className='text-lg mt-1.5 md:mt-4' />
+                <p className='flex'><BiMoviePlay className='text-xl md:text-2xl mt-1.5 md:mt-3' />
                 <span className='px-3 pt-1'>HMRC Advance Assured</span></p>
 
-                <p className='flex md:ml-[-5px] lg:ml-[-15px]'><BiMoviePlay className='text-lg mt-1.5 md:mt-4 md:w-12' />
-                <span className='px-3 pt-1 lg:px-0'>50% of investment rebated in 2021/22 or 2022/23 tax return</span></p>
+                <p className='flex md:ml-[-5px] lg:ml-[-12px]'><BiMoviePlay className='text-xl md:text-2xl mt-1.5 md:mt-3 md:w-12' />
+                <span className='px-3 pt-1'>50% of investment rebated in 2021/22 or 2022/23 tax return</span></p>
 
-                <p className='flex'><BiMoviePlay className='text-lg mt-1.5 md:mt-4' />
+                <p className='flex'><BiMoviePlay className='text-xl md:text-2xl mt-1.5 md:mt-3' />
                 <span className='px-3 pt-1'>No Capital Gains Tax on growth</span></p>
 
-                <p className='flex'><BiMoviePlay className='text-lg mt-1.5 md:mt-4' />
+                <p className='flex'><BiMoviePlay className='text-xl md:text-2xl mt-1.5 md:mt-3' />
                 <span className='px-3 pt-1'>CGT Reliefs on investing</span></p>
               </div>
 
@@ -49,7 +51,7 @@ const Head = () => {
          </div>
             
             <div className='flex items-center justify-center mt-12 lg:justify-end lg:mt-[-10px] lg:mr-[305px]'>
-            <button className='button bg-[#f5924c] md:text-lg text-white py-2 px-4 rounded'>Click Here To See If You Qualify</button>
+            <button className='button bg-[#262a33] md:text-lg text-white py-2 px-4 rounded'>Click Here To See If You Qualify</button>
             </div>
 
             {/* <hr className='my-7 mx-4 border-2 lg:mt-12 lg:mx-12' /> */}
