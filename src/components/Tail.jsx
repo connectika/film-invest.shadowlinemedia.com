@@ -68,7 +68,7 @@ const Tail = () => {
        </div>
               
        <div>
-        <p className='text-xs md:text-sm mb-2 mx-2 rounded py-2 px-2 leading-4 md:leading-6 bg-[#ffceac] lg:text-base lg:mx-0 lg:px-12 lg:py-10 lg:rounded'>
+        <p className='text-xs md:text-sm mb-2 mt-3 py-2 px-2 leading-4 md:leading-6 bg-[#ffceac] lg:text-base lg:px-12 lg:py-10'>
          <b>Disclaimer:</b> Any person considering potential investment opportunities featured should
          make their own commercial assessment of an investment opportunity and consider seeking
           the advice of an appropriately authorised or regulated financial advisor. The email should
