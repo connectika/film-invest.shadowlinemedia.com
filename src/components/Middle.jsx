@@ -8,7 +8,7 @@ import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 
 const firstSection = {
-  visible: { y: 0, opacity: 1, type: "tween", transition: { duration: 0.2 } },
+  visible: { y: 0, opacity: 1, type: "tween", ease: "linear", transition: { duration: 1 } },
   hidden: { y: '200px', opacity: 0 }
 };
 
