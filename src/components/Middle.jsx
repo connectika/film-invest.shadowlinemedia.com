@@ -26,7 +26,7 @@ const Middle = () => {
 
   return (
     <div className='flex-column bg-[#fff1e5] items-center justify-center mt-[75px]'>
-        <p className='text-xl text-center mb-7 lg:text-3xl lg:my-12 mt-[-20px] pt-8'>Shadowline Media have acquired :</p>
+        <p className='text-xl text-center mb-7 md:text-2xl lg:text-3xl lg:my-12 mt-[-20px] pt-12'>Shadowline Media have acquired :</p>
 
                                {/* FIRST SECTION */}
         <motion.div 
@@ -34,9 +34,9 @@ const Middle = () => {
         variants={firstSection}
         initial="hidden"
         animate={control}
-        className='first-section flex-column lg:flex-row items-center justify-center lg:mx-7 md:mt-12 mt-[100px]'>
+        className='first-section flex-column lg:flex-row items-center justify-center lg:mx-[70px] md:mt-12 mt-[100px]'>
                 
-              <div className='first1 flex-column items-center justify-center md:mt-2 lg:mt-[-60px] lg:mx-[70px]'>
+              <div className='first1 flex-column items-center justify-center md:mt-2 lg:mt-[-60px] lg:ml-12'>
               <p className='text-[#262a33] text-xl md:text-[25px] font-medium text-center lg:my-8 lg:text-3xl lg:font-bold'>
                 Angelina - Queen of Coffee
                 </p>
@@ -53,10 +53,10 @@ const Middle = () => {
             </div>
         </motion.div>
 
-        <hr className='my-7 mx-0 border-1 lg:mx-12' />
+        <hr className='hr-line my-7 lg:mx-12' />
 
                                  {/* SECOND SECTION */}
-         <div className='second-section flex-column items-center justify-center lg:mx-7 md:ml-[-150px]'>
+         <div className='second-section flex-column items-center justify-center lg:mx-[55px] md:ml-[-150px]'>
 
               <div className='second1 flex-column items-center justify-center lg:mr-12 md:mr-1'>
               <p className='text-[#262a33] text-xl md:text-[28px] font-medium text-center lg:my-5 lg:text-3xl lg:font-bold'>
@@ -110,12 +110,12 @@ const Middle = () => {
                 <p className='flex'><BiMoviePlay className='text-xl md:text-2xl mt-1.5 md:mt-3.5' />
                 <span className='px-3 pt-1'>Name in the credits</span></p>
               </div>
-              <div className='flex items-center md:items-start justify-center mt-8 md:mt-[-175px] md:ml-[210px]'>
+              <div className='flex items-center md:items-start justify-center mt-8 mb-5 md:mt-[-175px] md:ml-[210px]'>
                 <img className='w-[275px] lg:w-[375px] lg:mt-[-35px] rounded-md' src={Camera} alt="camera" />
             </div>
          </div>
             </div>
-        <hr className='mb-7 mx-0 border-2' />
+        <hr className='hr-line mb-7' />
 
     </div>
   )

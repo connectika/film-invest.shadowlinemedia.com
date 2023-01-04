@@ -45,7 +45,7 @@ const Head = () => {
                 <span className='px-3 pt-1'>CGT Reliefs on investing</span></p>
               </div>
 
-              <div className='intro-2 flex items-center justify-center mt-8 lg:mb-[-45px]'>
+              <div className='intro-2 flex items-center justify-center mt-6 lg:mb-[-45px]'>
                 <img className='w-[300px] md:w-[400px]' src={Paramount} alt="paramount pictures" />
               </div>
          </div>
