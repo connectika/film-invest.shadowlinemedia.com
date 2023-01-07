@@ -24,8 +24,8 @@ const Head = () => {
             <p className='intro-text mt-[90px] text-base font-medium text-center leading-8 py-7 px-7 mb-7 z-50
             md:text-lg md:leading-10 md:mt-[130px] lg:text-3xl lg:mt-[150px] lg:mx-[100px] lg:rounded lg:leading-[3.5rem]'>
              Get 50% SEIS income tax relief on two of the most eagerly awaited cinematic releases
-             in the coming months The <b>George Best Story</b> and the recently Paramount Pictures backed
-             true story of <b>Angelina The Queen of Coffee</b> .
+             in the coming months. The <b>George Best Story</b> and the recently Paramount Pictures backed
+             true story of <b>Angelina The Queen of Coffee</b>.
             </p>
             </div>
          </div>
