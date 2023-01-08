@@ -14,7 +14,7 @@ const Head = () => {
                  <button
                  className='button bg-[#262a33] text-[#fff] border-2 text-xs md:text-sm lg:text-base mx-2 md:mx-4 px-2 py-1.5 md:px-4 md:py3 rounded'
                  >
-                  <a href="#">Enquire</a>
+                  <a href="https://form.jotform.com/230065006821343" target="_blank">Enquire</a>
                    </button>
               </div>
         </div>

@@ -79,7 +79,7 @@ const Middle = () => {
 
         <div className='flex items-center justify-center'>
         <button className='button bg-[#262a33] text-white py-2 px-4 my-5 md:py-5 mx-9 rounded'>
-                    Click Here For Your Chance To Invest (Tab To Enquiry Form)
+                    <a href="https://form.jotform.com/230065006821343" target="_blank">Click Here For Your Chance To Invest (Tab To Enquiry Form)</a>
         </button>
         </div>
         {/* <hr className='mt-7 mx-0 border-2 lg:mx-12' />  */}
