@@ -1,7 +1,7 @@
 {
   "name": "filminvest",
   "version": "0.1.0",
-  "homepage": "filminvest.shadowlinemedia.com",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
