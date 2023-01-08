@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/filminvest.shadowlinemedia.com/static/css/main.985ff51a.css",
+    "main.js": "/filminvest.shadowlinemedia.com/static/js/main.9ca41838.js",
+    "static/media/paramount.png": "/filminvest.shadowlinemedia.com/static/media/paramount.8313cd08bd574cd2f625.png",
+    "static/media/angelina.jpg": "/filminvest.shadowlinemedia.com/static/media/angelina.813a6aef8612fdd70654.jpg",
+    "static/media/george-best.png": "/filminvest.shadowlinemedia.com/static/media/george-best.1eb17035a9e6f1e4d77b.png",
+    "static/media/james.jpg": "/filminvest.shadowlinemedia.com/static/media/james.1cdac4c612bd719b143d.jpg",
+    "static/media/funny-cow-mad-to-be-normal.jpg": "/filminvest.shadowlinemedia.com/static/media/funny-cow-mad-to-be-normal.2c0cefd262b3351f1fdf.jpg",
+    "static/media/camera-image.png": "/filminvest.shadowlinemedia.com/static/media/camera-image.50b42d4154a5bd4e1c2c.png",
+    "index.html": "/filminvest.shadowlinemedia.com/index.html",
+    "main.985ff51a.css.map": "/filminvest.shadowlinemedia.com/static/css/main.985ff51a.css.map",
+    "main.9ca41838.js.map": "/filminvest.shadowlinemedia.com/static/js/main.9ca41838.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.985ff51a.css",
+    "static/js/main.9ca41838.js"
+  ]
+}

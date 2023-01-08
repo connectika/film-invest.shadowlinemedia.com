@@ -1,7 +1,7 @@
 {
-  "name": "filminvestment",
+  "name": "filminvest",
   "version": "0.1.0",
-  "homepage": "https://connectika.github.io/filminvestment.shadowlinemedia.com",
+  "homepage": "filminvest.shadowlinemedia.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
