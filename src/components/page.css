@@ -22,9 +22,11 @@
 .intro{
     height: 625px;
     width: 100%;
-    background-image: url("../images/shadow-bg.jpg");
+    background-image: url("../images/George.jpeg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .head-intro{
     display: flex;
@@ -37,13 +39,6 @@
 }
 .intro-2{
     margin: 0px 75px;
-}
-.intro{
-    height: 500px;
-    width: 100%;
-    background-image: url("../images/shadow-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .first-section{
     display: flex;
@@ -115,9 +110,6 @@
     .intro{
         height: 370px;
         width: 100%;
-        background-image: url("../images/shadow-bg.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
     }
     .intro-1{
         margin: 20px 50px 0px 50px;

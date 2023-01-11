@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.8ca1a42f.css",
+    "main.css": "./static/css/main.eda61240.css",
     "main.js": "./static/js/main.4d904ce4.js",
-    "static/media/shadow-bg.jpg": "./static/media/shadow-bg.09b7051841ef8a8ece4d.jpg",
     "static/media/paramount.png": "./static/media/paramount.8313cd08bd574cd2f625.png",
+    "static/media/George.jpeg": "./static/media/George.3d3140908ee689223496.jpeg",
     "static/media/angelina.jpg": "./static/media/angelina.813a6aef8612fdd70654.jpg",
     "static/media/george-best.png": "./static/media/george-best.1eb17035a9e6f1e4d77b.png",
     "static/media/james.jpg": "./static/media/james.1cdac4c612bd719b143d.jpg",
     "static/media/funny-cow-mad-to-be-normal.jpg": "./static/media/funny-cow-mad-to-be-normal.2c0cefd262b3351f1fdf.jpg",
     "static/media/camera-image.png": "./static/media/camera-image.50b42d4154a5bd4e1c2c.png",
     "index.html": "./index.html",
-    "main.8ca1a42f.css.map": "./static/css/main.8ca1a42f.css.map",
+    "main.eda61240.css.map": "./static/css/main.eda61240.css.map",
     "main.4d904ce4.js.map": "./static/js/main.4d904ce4.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ca1a42f.css",
+    "static/css/main.eda61240.css",
     "static/js/main.4d904ce4.js"
   ]
 }
