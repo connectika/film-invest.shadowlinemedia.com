@@ -35,8 +35,30 @@ const Middle = () => {
         initial="hidden"
         animate={control}
         className='first-section flex-column lg:flex-row items-center justify-center lg:mx-[70px] md:mt-12 mt-[100px]'>
+
+              <div className='first1 flex-column items-center justify-center lg:mr-12 md:mr-1'>
+              <p className='text-[#262a33] text-xl md:text-[28px] font-medium text-center lg:my-5 lg:text-3xl lg:font-bold'>
+                George Best
+                </p>   
+
+                <ul className='mt-2 mx-[30px] text-[10px] md:text-base lg:text-base lg:leading-[40px] md:leading-10 leading-4'>
+                <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-4xl md:text-[67px] lg:text-[50px]' /><span className='px-2'>Exclusive rights to invest in 
+                 the George Best drama feature film and become part of his legacy</span></li>
+                <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-[51px] md:text-[95px] lg:text-[70px]' /><span className='px-2'>Attachment of highly acclaimed Film producer Stephens Evans 
+                (The Madness of King George & Confessions of a Dangerous Mind)</span></li>
+                </ul> 
+
+         </div>
+
                 
-              <div className='first1 flex-column items-center justify-center md:mt-2 lg:mt-[-60px] lg:ml-12'>
+        </motion.div>
+
+        <hr className='hr-line my-7 lg:mx-12' />
+
+                                 {/* SECOND SECTION */}
+         <div className='second-section flex-column items-center justify-center lg:mx-[55px] md:ml-[-150px]'>
+
+          <div className='second1 flex-column items-center justify-center md:mt-2 lg:mt-[-60px] lg:ml-12'>
               <p className='text-[#262a33] text-xl md:text-[25px] font-medium text-center lg:my-8 lg:text-3xl lg:font-bold'>
                 Angelina - Queen of Coffee
                 </p>
@@ -51,30 +73,9 @@ const Middle = () => {
          <div className='first2 flex items-center justify-center my-8'>
                 <img className='w-[275px] lg:w-[350px] rounded-md' src={Angelina} alt="Angelina" />
             </div>
-        </motion.div>
 
-        <hr className='hr-line my-7 lg:mx-12' />
 
-                                 {/* SECOND SECTION */}
-         <div className='second-section flex-column items-center justify-center lg:mx-[55px] md:ml-[-150px]'>
 
-              <div className='second1 flex-column items-center justify-center lg:mr-12 md:mr-1'>
-              <p className='text-[#262a33] text-xl md:text-[28px] font-medium text-center lg:my-5 lg:text-3xl lg:font-bold'>
-                George Best
-                </p>   
-
-                <ul className='mt-2 mx-[30px] text-[10px] md:text-base lg:text-base lg:leading-[40px] md:leading-10 leading-4'>
-                <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-4xl md:text-[67px] lg:text-[50px]' /><span className='px-2'>Exclusive rights to invest in 
-                 the George Best drama feature film and become part of his legacy</span></li>
-                <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-[51px] md:text-[95px] lg:text-[70px]' /><span className='px-2'>Attachment of highly acclaimed Film producer Stephens Evans 
-                (The Madness of King George & Confessions of a Dangerous Mind)</span></li>
-                </ul> 
-
-         </div>
-
-            <div className='second2 flex-column items-center justify-center my-8 md:mx-12'>
-                <img className='w-[275px] lg:w-[375px] rounded-md mx-10 md:mx-[135px] lg:mx-12 mx-[60px]' src={George} alt="George Best" />
-            </div>
         </div>
 
         <div className='flex items-center justify-center'>

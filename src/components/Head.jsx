@@ -31,7 +31,12 @@ const Head = () => {
          </div>
 
          <div className='head-intro flex-column items-center justify-center'>
-              <div className='intro-1 mx-7 mt-7 lg:mt-[75px] md:mt-[75px] text-[10px] md:text-base md:leading-10 leading-7'>
+
+              <div className='intro-1 flex items-center justify-center mt-6 lg:mb-[-45px]'>
+                <img className='w-[300px] md:w-[400px]' src={Paramount} alt="paramount pictures" />
+              </div>
+
+              <div className='intro-2 mx-7 mt-7 lg:mt-[75px] md:mt-[75px] text-[10px] md:text-base md:leading-10 leading-7'>
                 <p className='flex'><BiMoviePlay className='text-xl md:text-2xl mt-1.5 md:mt-3' />
                 <span className='px-3 pt-1'>HMRC Advance Assured</span></p>
 
@@ -45,12 +50,9 @@ const Head = () => {
                 <span className='px-3 pt-1'>CGT Reliefs on investing</span></p>
               </div>
 
-              <div className='intro-2 flex items-center justify-center mt-6 lg:mb-[-45px]'>
-                <img className='w-[300px] md:w-[400px]' src={Paramount} alt="paramount pictures" />
-              </div>
          </div>
             
-            <div className='flex items-center justify-center mt-12 lg:justify-end lg:mt-[-10px] lg:mr-[305px]'>
+            <div id="header-click-here" className='flex items-center justify-center mt-12 lg:justify-start lg:ml-[305px]'>
             <button className='button bg-[#262a33] md:text-lg text-white py-2 px-4 rounded'>Click Here To See If You Qualify</button>
             </div>
 
