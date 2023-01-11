@@ -52,7 +52,7 @@ const Head = () => {
 
          </div>
             
-            <div id="header-click-here" className='flex items-center justify-center mt-12 lg:justify-start lg:ml-[305px]'>
+            <div className='flex items-center justify-center mt-12 lg:justify-start lg:ml-[305px]'>
             <button className='button bg-[#262a33] md:text-lg text-white py-2 px-4 rounded'>Click Here To See If You Qualify</button>
             </div>
 
