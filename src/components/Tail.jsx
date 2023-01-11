@@ -33,33 +33,6 @@ const Tail = () => {
            </p>
         </div>
 
-        <motion.div 
-        ref={ref}
-        variants={boxVariant}
-        initial="hidden"
-        animate={control}
-        className='tail-section flex-column items-center justify-center lg:mr-[130px] lg:my-[100px]'>
-            <div className='tail1 px-7 md:px-0 md:pr-7'>
-                <h1 className='text-2xl font-medium'>ABOUT ME</h1>
-                <p className='text-sm mt-[-25px] mb-3'>PRODUCER <sub className='text-5xl'>·</sub> INVESTMENT CONSULTANT</p>
-                <p className='text-xs md:text-sm md:leading-7 leading-5 text-left'>
-                I'm James Anderson a former radio journalist, accountant, business enterpreneur
-                 and more recently a film writer and producer. - I originated the concept and script
-                  for the feature film Angelina - Queen of Coffee and have shown my commitment and
-                   passion to the project by self financing the film and helping with its extensive
-                    creative development. I run my own bespoke consumer litigation company which was
-                     featured in the FT and Yorkshire Post for its work in helping consumers with
-                      credit rating errors. My company is the first of its kind in the UK to offer
-                       this specialised legal service.
-                </p>
-                <p className='text-xs leading-5 py-5 md:text-sm md:leading-7'>Please find a link to our talented management team
-        ``         <a className='text-[#344d90] underline px-1' href="https://shadowlinemedia.com/">here at Shadowline Media.</a></p>
-            </div>
-            <div className='tail2 flex items-center justify-center md:mx-7 lg:mr-[-100px]'>
-                <img className='w-[275px] mb-5 md:w-[275px] rounded-md' src={James} alt="James" />
-            </div>
-        </motion.div>
-
                              {/* BOTTOM */}
         <div className='bg-[#fff1e5]'>
        <div className='mx-3 pt-5 md:mx-7 lg:mx-12'>
