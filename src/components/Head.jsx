@@ -7,7 +7,7 @@ import { BiMoviePlay } from 'react-icons/bi';
 const Head = () => {
   return (
     <div>
-                                  {/* NAVBAR */}
+      {/* NAVBAR */}
         <div className='flex items-center justify-between navbar pb-3 pt-5 px-4 md:px-12 lg:px-[100px] lg:mb-[400px] shadow-md'>
             <img className='w-[150px] md:w-[250px] lg:w-[300px]' src={Logo} alt="logo" />
               <div className='flex items-center justify-between'>
@@ -18,7 +18,7 @@ const Head = () => {
                    </button>
               </div>
         </div>
-                                     {/* INTRO */}
+      {/* INTRO */}
          <div className='intro flex items-center justify-center' id='Top'>
           <div className='opacity-70 bg-[#fff9f5] py-[10px] lg:py-[50px] md:py-[90px]'>
             <p className='intro-text mt-[90px] text-base font-medium text-center leading-8 py-7 px-7 mb-7 z-50
@@ -52,11 +52,10 @@ const Head = () => {
 
          </div>
             
-            <div className='flex items-center justify-center mt-12 lg:justify-start lg:ml-[305px]'>
-            <button className='button bg-[#262a33] md:text-lg text-white py-2 px-4 rounded'>Click Here To See If You Qualify</button>
-            </div>
+         <div className='flex items-center justify-center mt-12 lg:justify-start lg:ml-[305px]'>
+            <button className='button bg-[#262a33] md:text-lg text-white py-2 px-4 rounded'><a href="https://form.jotform.com/230065006821343" target="_blank">Click Here To See If You Qualify</a></button>
+         </div>
 
-            {/* <hr className='my-7 mx-4 border-2 lg:mt-12 lg:mx-12' /> */}
     </div>
   )
 }

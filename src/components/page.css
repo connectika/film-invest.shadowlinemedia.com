@@ -71,6 +71,14 @@
     border-top: 1px solid #262a33;
     margin: 0px 40px;
 }
+#tail a {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+#tail a:hover {
+    color: white;
+}
 .tail-section{
     display: flex;
     flex-direction: row;
@@ -84,6 +92,10 @@
 .tail2{
     width: 50vw;
 }
+#angelina-landscape img {
+    width: 100vw;
+    margin-bottom: 20px;
+}
 
 @media only screen and (max-width: 768px) {
     .tail1{
@@ -95,6 +107,10 @@
     .intro{
         max-height: 500px;
         background-size: contain;
+    }
+    #angelina-landscape {
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 @media only screen and (max-width: 480px) {

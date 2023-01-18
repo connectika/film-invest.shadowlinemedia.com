@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './page.css'
 import { BiMoviePlay } from 'react-icons/bi';
 import Angelina from '../images/angelina.jpg'
+import Angelina3 from '../images/angelina3.jpg'
 import George from '../images/george-best.png'
 import Camera from '../images/camera-image.png'
 import { useInView } from "react-intersection-observer";
@@ -28,7 +29,7 @@ const Middle = () => {
     <div className='flex-column bg-[#fff1e5] items-center justify-center mt-[75px]'>
         <p className='text-xl text-center mb-7 md:text-2xl lg:text-3xl lg:my-12 mt-[-20px] pt-12'>Shadowline Media have acquired :</p>
 
-                               {/* FIRST SECTION */}
+      {/* FIRST SECTION */}
         <motion.div 
         ref={ref}
         variants={firstSection}
@@ -36,26 +37,26 @@ const Middle = () => {
         animate={control}
         className='first-section flex-column lg:flex-row items-center justify-center lg:mx-[70px] md:mt-12 mt-[100px]'>
 
-              <div className='first1 flex-column items-center justify-center lg:mr-12 md:mr-1'>
-              <p className='text-[#262a33] text-xl md:text-[28px] font-medium text-center lg:my-5 lg:text-3xl lg:font-bold'>
-                George Best
-                </p>   
+           <div className='first1 flex-column items-center justify-center lg:mr-12 md:mr-1'>
+                  <p className='text-[#262a33] text-xl md:text-[28px] font-medium text-center lg:my-5 lg:text-3xl lg:font-bold'>
+                  George Best
+                  </p>   
 
-                <ul className='mt-2 mx-[30px] text-[10px] md:text-base lg:text-base lg:leading-[40px] md:leading-10 leading-4'>
-                <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-4xl md:text-[67px] lg:text-[50px]' /><span className='px-2'>Exclusive rights to invest in 
-                 the George Best drama feature film and become part of his legacy</span></li>
-                <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-[51px] md:text-[95px] lg:text-[70px]' /><span className='px-2'>Attachment of highly acclaimed Film producer Stephens Evans 
-                (The Madness of King George & Confessions of a Dangerous Mind)</span></li>
-                </ul> 
+                  <ul className='mt-2 mx-[30px] text-[10px] md:text-base lg:text-base lg:leading-[40px] md:leading-10 leading-4'>
+                  <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-4xl md:text-[67px] lg:text-[50px]' /><span className='px-2'>Exclusive rights to invest in 
+                   the George Best drama feature film and become part of his legacy</span></li>
+                  <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-[51px] md:text-[95px] lg:text-[70px]' /><span className='px-2'>Attachment of highly acclaimed Film producer Stephens Evans 
+                  (The Madness of King George & Confessions of a Dangerous Mind)</span></li>
+                  </ul> 
 
-         </div>
+           </div>
 
                 
         </motion.div>
 
         <hr className='hr-line my-7 lg:mx-12' />
 
-                                 {/* SECOND SECTION */}
+        {/* SECOND SECTION */}
          <div className='second-section flex-column items-center justify-center lg:mx-[55px] md:ml-[-150px]'>
 
           <div className='second1 flex-column items-center justify-center md:mt-2 lg:mt-[-60px] lg:ml-12'>
@@ -71,22 +72,15 @@ const Middle = () => {
                 </ul>
          </div>
          <div className='first2 flex items-center justify-center my-8'>
-                <img className='w-[275px] lg:w-[350px] rounded-md' src={Angelina} alt="Angelina" />
-            </div>
-
-
-
+            <img className='w-[275px] lg:w-[350px] rounded-md' src={Angelina} alt="Angelina" />
+         </div>
         </div>
 
-        <div className='flex items-center justify-center'>
-        <button className='button bg-[#262a33] text-white py-2 px-4 my-5 md:py-5 mx-9 rounded'>
-                    <a href="https://form.jotform.com/230065006821343" target="_blank">Click Here For Your Chance To Invest (Tab To Enquiry Form)</a>
-        </button>
+        <div className='flex items-center justify-center' id="angelina-landscape">
+            <img className='rounded-md' src={Angelina3} alt="Angelina" />
         </div>
-        {/* <hr className='mt-7 mx-0 border-2 lg:mx-12' />  */}
 
-
-                                   {/* THIRD SECTION */}
+        {/* THIRD SECTION */}
          <div className='third-section flex-column items-center justify-center pt-7 px-3 pb-2 lg:pb-12'>
             <div className='lg:px-[100px]'>
                 <p className='text-[#262a33] md:pt-12 text-base md:text-[27px] md:leading-8 font-medium text-center lg:text-center'>
