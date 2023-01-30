@@ -41,7 +41,7 @@ const Head = () => {
                 <span className='px-3 pt-1'>HMRC Advance Assured</span></p>
 
                 <p className='flex md:ml-[-5px] lg:ml-[-12px]'><BiMoviePlay className='text-xl md:text-2xl mt-1.5 md:mt-3 md:w-12' />
-                <span className='px-3 pt-1'>50% of investment rebated in 2021/22 or 2022/23 tax return</span></p>
+                <span className='px-3 pt-1'>50% of investment rebated in 2022/23 or 2023/24 tax return</span></p>
 
                 <p className='flex'><BiMoviePlay className='text-xl md:text-2xl mt-1.5 md:mt-3' />
                 <span className='px-3 pt-1'>No Capital Gains Tax on growth</span></p>

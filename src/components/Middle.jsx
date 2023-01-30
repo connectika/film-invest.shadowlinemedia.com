@@ -42,11 +42,13 @@ const Middle = () => {
                   George Best
                   </p>   
 
-                  <ul className='mt-2 mx-[30px] text-[10px] md:text-base lg:text-base lg:leading-[40px] md:leading-10 leading-4'>
-                  <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-4xl md:text-[67px] lg:text-[50px]' /><span className='px-2'>Exclusive rights to invest in 
-                   the George Best drama feature film and become part of his legacy</span></li>
-                  <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-[51px] md:text-[95px] lg:text-[70px]' /><span className='px-2'>Attachment of highly acclaimed Film producer Stephens Evans 
-                  (The Madness of King George & Confessions of a Dangerous Mind)</span></li>
+                  <ul className='mt-2 mx-[30px] text-[10px] md:text-base lg:text-base lg:leading-8 md:leading-6 leading-4'>
+                    <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-xl md:text-3xl' /><span className='px-2'>Exclusive rights to invest in 
+                     the George Best drama feature film and become part of his legacy</span></li>
+                    <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-[30px] md:text-[67px] lg:text-[43px]' /><span className='px-2'>Attachment of highly acclaimed Film producer Stephens Evans 
+                    (The Madness of King George & Confessions of a Dangerous Mind)</span></li>
+                    <li className='flex items-center py-2 lg:py-4'><BiMoviePlay className='text-xl md:text-[42px] lg:text-[30px]' /><span className='px-2'>Attachment of critically acclaimed director Trevor Nunn 
+                    (Twelfth Night, Red Joan)</span></li>
                   </ul> 
 
            </div>
