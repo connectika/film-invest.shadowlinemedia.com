@@ -19,7 +19,7 @@
     background-color: #fff;
     border: 2px solid #262a33; 
 }
-.intro{
+/* .intro{
     height: 625px;
     width: 100%;
     background-image: url("../images/George.jpeg");
@@ -27,7 +27,7 @@
     background-position: top;
     background-attachment: fixed;
     background-size: cover;
-}
+} */
 .head-intro{
     display: flex;
     flex-direction: row-reverse;
