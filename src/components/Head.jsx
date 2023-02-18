@@ -19,14 +19,14 @@ const Head = () => {
                    </button>
               </div>
         </div>
-      {/* INTRO */}
-         <div className='intro flex items-center justify-center mt-28' id='Top'>
-              <div className='opacity-70 bg-[#fff9f5] py-[10px] lg:py-[50px] md:py-[90px]'>
+                                        {/* INTRO */}
+         <div className='intro flex items-center justify-center mt-36 md:mt-20 lg:mt-36 lg:mb-28' id='Top'>
+              <div className='opacity-70 bg-[#fff9f5] py-[10px] lg:py-[50px] md:pt-[90px] lg:px-20'>
                 <div>
-                 <img className='float-right w-36 h-48 mx-3 rounded-md' src={George} alt="" />
+                 <img className='float-right w-48 md:w-72 md:h-72 h-64 lg:w-[400px] lg:h-[550px] mx-3 mt-3 mb-[-12px] rounded-md lg:mx-12' src={George} alt="..." />
                 </div>
-                   <p className='text-justify intro-text mt-[0px] text-base font-medium text-center leading-8 pb-7 px-5 mb-7 z-50
-                   md:text-lg md:leading-10 md:mt-[130px] lg:text-3xl lg:mt-[150px] lg:mx-[100px] lg:rounded lg:leading-[3.5rem]'>
+                   <p className='text-justify intro-text text-base font-medium leading-8 pb-7 px-5 mt-1 mb-10 z-50
+                   md:text-lg md:leading-[3rem] md:mt-12 lg:text-3xl lg:mt-[150px] lg:mx-[10px] lg:rounded lg:leading-[3.5rem]'>
                     Get 50% SEIS income tax relief on two of the most eagerly awaited cinematic releases
                     in the coming months. The George Best Story and the recently Paramount Pictures backed
                     true story of Angelina The Queen of Coffee.
