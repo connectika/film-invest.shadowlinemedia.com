@@ -1,6 +1,6 @@
 import React from 'react'
 import './page.css'
-import Logo from '../images/logo.png'
+import Logo from '../images/logo_text.png'
 import Paramount from '../images/paramount.png'
 import George from '../images/George.jpeg'
 import { BiMoviePlay } from 'react-icons/bi';
@@ -18,7 +18,6 @@ const Head = () => {
                  >
                   <a href="https://form.jotform.com/230065006821343" target="_blank">Enquire</a>
                    </button>
-   	     <h5>Sick of making LARGE income tax payments?</h5>
               </div>
 	  </div>
         </div>
