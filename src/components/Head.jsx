@@ -1,6 +1,6 @@
 import React from 'react'
 import './page.css'
-import Logo from '../images/logo_text.png'
+import Logo from '../images/logo.png'
 import Paramount from '../images/paramount.png'
 import George from '../images/George.jpeg'
 import { BiMoviePlay } from 'react-icons/bi';
@@ -10,6 +10,7 @@ const Head = () => {
     <div>
       {/* NAVBAR */}
         <div className='flex items-center justify-between navbar pb-3 pt-5 px-4 md:px-12 lg:px-[100px] lg:mb-[400px] shadow-md'>
+	  <div>
             <img className='w-[150px] md:w-[250px] lg:w-[300px]' src={Logo} alt="logo" />
               <div className='flex items-center justify-between'>
                  <button
@@ -17,17 +18,10 @@ const Head = () => {
                  >
                   <a href="https://form.jotform.com/230065006821343" target="_blank">Enquire</a>
                    </button>
+   	     <h5>Sick of making LARGE income tax payments?</h5>
               </div>
+	  </div>
         </div>
-      {/* INTRO */}
-      <br class='top-break' />
-      <br class='top-break' />
-      <br class='top-break' />
-      <br class='top-break' />
-      <br class='top-break' />
-      <br class='top-break' />
-      <br class='top-break' />
-      <br class='top-break' />
 
                                         {/* INTRO */}
          <div className='intro flex items-center justify-center mt-36 md:mt-20 lg:mt-36 lg:mb-28' id='Top'>
@@ -42,6 +36,7 @@ const Head = () => {
                     true story of Angelina The Queen of Coffee.
                    </p>
                </div>
+	  </div>
 
          <div className='head-intro flex-column items-center justify-center'>
 
@@ -67,7 +62,6 @@ const Head = () => {
             
          <div className='flex items-center justify-center mt-12 lg:justify-start lg:ml-[305px]'>
             <button className='button bg-[#262a33] md:text-lg text-white py-2 px-4 rounded'><a href="https://form.jotform.com/230065006821343" target="_blank">Click Here To See If You Qualify</a></button>
-         </div>
          </div>
          </div>
 
