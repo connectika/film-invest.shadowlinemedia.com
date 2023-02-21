@@ -10,7 +10,12 @@ const Head = () => {
     <div>
       {/* NAVBAR */}
         <div className='flex items-center justify-between navbar pb-3 pt-5 px-4 md:px-12 lg:px-[100px] lg:mb-[400px] shadow-md'>
+          <div className='flex-col items-center justify-center'>
             <img className='w-[150px] md:w-[250px] lg:w-[300px]' src={Logo} alt="logo" />
+            <p className='text-xs lg:text-xl font-medium text-center md:text-center mt-1 mb-[-5px] bg-white border-2 py-1 pl-0 md:pl-3 lg:pl-0 rounded w-40 md:w-52 lg:w-80'>
+              Sick of making <b>LARGE</b> income tax payments?
+            </p>
+          </div>
               <div className='flex items-center justify-between'>
                  <button
                  className='button bg-[#262a33] text-[#fff] border-2 text-xs md:text-sm lg:text-base mx-2 md:mx-4 px-2 py-1.5 md:px-4 md:py3 rounded'
@@ -20,7 +25,7 @@ const Head = () => {
               </div>
         </div>
                                         {/* INTRO */}
-         <div className='intro flex items-center justify-center mt-36 md:mt-20 lg:mt-36 lg:mb-28' id='Top'>
+         <div className='intro flex items-center justify-center mt-44 md:mt-20 lg:mt-36 lg:mb-28' id='Top'>
               <div className='opacity-70 bg-[#fff9f5] py-[10px] lg:py-[50px] md:pt-[90px] lg:px-20'>
                 <div>
                  <img className='float-right w-48 md:w-72 md:h-72 h-64 lg:w-[400px] lg:h-[550px] mx-3 mt-3 mb-[-12px] rounded-md lg:mx-12' src={George} alt="..." />
