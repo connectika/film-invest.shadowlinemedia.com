@@ -10,9 +10,9 @@ const Head = () => {
     <div>
       {/* NAVBAR */}
         <div className='flex items-center justify-between navbar pb-3 pt-5 px-4 md:px-12 lg:px-[100px] lg:mb-[400px] shadow-md'>
-          <div className='flex-col items-center justify-center'>
+          <div className='flex-col items-start justify-center'>
             <img className='w-[150px] md:w-[250px] lg:w-[300px]' src={Logo} alt="logo" />
-            <p className='text-xs lg:text-xl font-medium text-center md:text-center mt-1 mb-[-5px] bg-white border-2 py-1 pl-0 md:pl-3 lg:pl-0 rounded w-40 md:w-52 lg:w-80'>
+            <p className='text-sm lg:text-xl font-medium mt-1 mb-[-5px] py-1 md:pl-3 lg:pl-0 rounded w-[100%]'>
               Sick of making <b>LARGE</b> income tax payments?
             </p>
           </div>
@@ -28,9 +28,9 @@ const Head = () => {
          <div className='intro flex items-center justify-center mt-44 md:mt-20 lg:mt-36 lg:mb-28' id='Top'>
               <div className='opacity-70 bg-[#fff9f5] py-[10px] lg:py-[50px] md:pt-[90px] lg:px-20'>
                 <div>
-                 <img className='float-right w-48 md:w-72 md:h-72 h-64 lg:w-[400px] lg:h-[550px] mx-3 mt-3 mb-[-12px] rounded-md lg:mx-12' src={George} alt="..." />
+                 <img className='float-right w-48 md:w-72 md:h-72 h-64 lg:w-[400px] lg:h-[550px] mx-3 mt-[6px] mb-[-7px] rounded-md lg:mx-12' src={George} alt="..." />
                 </div>
-                   <p className='text-justify intro-text text-base font-medium leading-8 pb-7 px-5 mt-1 mb-10 z-50
+                   <p className='text-justify intro-text text-xl font-medium leading-8 pb-7 px-5 mt-1 mb-10 z-50
                    md:text-lg md:leading-[3rem] md:mt-12 lg:text-3xl lg:mt-[150px] lg:mx-[10px] lg:rounded lg:leading-[3.5rem]'>
                     Get 50% SEIS income tax relief on two of the most eagerly awaited cinematic releases
                     in the coming months. The George Best Story and the recently Paramount Pictures backed
