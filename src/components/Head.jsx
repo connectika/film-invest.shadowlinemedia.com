@@ -20,7 +20,7 @@ const Head = () => {
                  <button
                  className='button bg-[#262a33] text-[#fff] border-2 text-xs md:text-sm lg:text-base mx-2 md:mx-4 px-2 py-1.5 md:px-4 md:py3 rounded'
                  >
-                  <a href="https://form.jotform.com/230065006821343" target="_blank">Enquire</a>
+                  <a href="https://form.jotform.com/230065006821343" target="_blank" rel="noreferrer">Enquire</a>
                    </button>
               </div>
         </div>
@@ -62,7 +62,7 @@ const Head = () => {
          </div>
             
          <div className='flex items-center justify-center mt-12 lg:justify-start lg:ml-[305px]'>
-            <button className='button bg-[#262a33] md:text-lg text-white py-2 px-4 rounded'><a href="https://form.jotform.com/230065006821343" target="_blank">Click Here To See If You Qualify</a></button>
+            <button className='button bg-[#262a33] md:text-lg text-white py-2 px-4 rounded'><a href="https://form.jotform.com/230065006821343" target="_blank" rel="noreferrer">Click Here To See If You Qualify</a></button>
          </div>
 
     </div>
