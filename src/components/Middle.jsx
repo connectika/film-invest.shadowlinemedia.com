@@ -3,7 +3,7 @@ import './page.css'
 import { BiMoviePlay } from 'react-icons/bi';
 import Angelina from '../images/angelina.jpg'
 import Angelina3 from '../images/angelina3.jpg'
-import George from '../images/george-best.png'
+// import George from '../images/george-best.png'
 import Camera from '../images/camera-image.png'
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
