@@ -45,7 +45,7 @@ const Tail = () => {
             <div className='tail1 px-7 md:px-0 md:pr-7'>
                 <h1 className='text-2xl font-medium'>ABOUT ME</h1>
                 <p className='text-sm mt-[-25px] mb-3'>PRODUCER <sub className='text-5xl'>·</sub> INVESTMENT CONSULTANT</p>
-                <p className='text-xs md:text-sm md:leading-7 leading-5 text-left'>
+                <p className='text-sm md:text-sm md:leading-7 leading-7 text-left'>
                 I'm James Anderson a former radio journalist, accountant, business enterpreneur
                  and more recently a film writer and producer. - I originated the concept and script
                   for the feature film Angelina and have shown my commitment and
@@ -73,19 +73,19 @@ const Tail = () => {
 
             <br/>
             <div className='flex items-center justify-center'>
-                <button className='button bg-[#262a33] text-white py-2 px-4 my-5 md:py-5 mx-9 rounded'>
+                <button className='button bg-[#198754] border-none text-white py-2 px-4 my-5 md:py-5 mx-9 rounded'>
                     <a href="https://shadowlinemedia.com/projects/released/funny-cow" target="_blank">Learn about the "Funny Cow" project</a>
                 </button>
             </div>
             <hr/>
             <div className='flex items-center justify-center'>
-                <button className='button bg-[#262a33] text-white py-2 px-4 my-5 md:py-5 mx-9 rounded'>
+                <button className='button bg-[#198754] border-none text-white py-2 px-4 my-5 md:py-5 mx-9 rounded'>
                     <a href="https://shadowlinemedia.com/projects/released/mad-to-be-normal" target="_blank">Learn about the "Mad to be Normal" project</a>
                 </button>
             </div>
 
            <div>
-                <p className='text-xs md:text-sm mb-2 mt-7 py-2 px-2 leading-4 md:leading-6 bg-[#ffceac] lg:text-base lg:px-12 lg:py-10'>
+                <p className='text-sm md:text-sm mb-2 mt-7 py-2 px-2 leading-4 md:leading-6 bg-[#ffceac] lg:text-base lg:px-12 lg:py-10'>
                  <b>Disclaimer:</b> Any person considering potential investment opportunities featured should
                  make their own commercial assessment of an investment opportunity and consider seeking
                   the advice of an appropriately authorised or regulated financial advisor. The email should
