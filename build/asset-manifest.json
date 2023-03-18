@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.6e443126.css",
-    "main.js": "./static/js/main.7e6b9b50.js",
+    "main.js": "./static/js/main.bc03e3c4.js",
     "static/media/angelina.jpg": "./static/media/angelina.8422715e84064eadb346.jpg",
     "static/media/George.jpeg": "./static/media/George.aa77247059ff66b977ff.jpeg",
     "static/media/funny-cow-mad-to-be-normal.jpg": "./static/media/funny-cow-mad-to-be-normal.68b49d94200b27c83ff9.jpg",
@@ -11,10 +11,10 @@
     "static/media/camera-image.png": "./static/media/camera-image.96c17eede21e11b21bf9.png",
     "index.html": "./index.html",
     "main.6e443126.css.map": "./static/css/main.6e443126.css.map",
-    "main.7e6b9b50.js.map": "./static/js/main.7e6b9b50.js.map"
+    "main.bc03e3c4.js.map": "./static/js/main.bc03e3c4.js.map"
   },
   "entrypoints": [
     "static/css/main.6e443126.css",
-    "static/js/main.7e6b9b50.js"
+    "static/js/main.bc03e3c4.js"
   ]
 }
