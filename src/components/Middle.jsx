@@ -69,7 +69,7 @@ const Middle = () => {
                 <ul className='mt-2 mx-[30px] text-[10px] md:text-base lg:text-base lg:leading-8 md:leading-6 leading-4'>
                 <li className='flex items-start py-2 lg:py-4'><BiMoviePlay className='text-3xl md:text-3xl' /><span className='px-2 text-base'>An Exclusive contract with Paramount Pictures</span></li>
                 <li className='flex items-start py-2 lg:py-4'><BiMoviePlay className='text-[60px] md:text-[67px] lg:text-[43px]' /><span className='px-2 text-base'>Attachment of highly sought after Netflix 'Queen Of The South' director Eduardo Sanchez
-                <br />* famed for producing the profitable film in history Blair Witch Project 250m</span></li>
+                <br />* famed for producing the most profitable film in history Blair Witch Project 250m</span></li>
                 <li className='flex items-start py-2 lg:py-4'><BiMoviePlay className='text-4xl md:text-[42px] lg:text-[30px]' /><span className='px-2 text-base'>Contract with biggest casting agency in South America</span></li>
                 <li className='flex items-start py-2 lg:py-4'><BiMoviePlay className='text-3xl md:text-3xl' /><span className='px-2 text-base'>Attachment of international sales agent</span></li>
                 </ul>
